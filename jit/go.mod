@@ -12,3 +12,4 @@ require github.com/opentracing/opentracing-go v1.2.0 // indirect
 
 //replace github.com/eh-steve/goloader => ../
 //replace github.com/eh-steve/goloader/jit/testdata => ./testdata
+replace github.com/eh-steve/goloader/jit/objfile => ./objfile

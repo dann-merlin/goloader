@@ -2,7 +2,6 @@ package jit
 
 import (
 	"bytes"
-	"cmd/objfile/objabi"
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
@@ -11,6 +10,7 @@ import (
 	"github.com/eh-steve/goloader"
 	"github.com/eh-steve/goloader/libc"
 	"github.com/eh-steve/goloader/obj"
+	"github.com/eh-steve/goloader/jit/objfile/objabi"
 	"io"
 	"log"
 	"os"
