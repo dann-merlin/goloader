@@ -2,7 +2,7 @@ package jit
 
 import (
 	"fmt"
-	"github.com/eh-steve/goloader"
+	"github.com/dann-merlin/goloader"
 )
 
 type LoadableUnit struct {
